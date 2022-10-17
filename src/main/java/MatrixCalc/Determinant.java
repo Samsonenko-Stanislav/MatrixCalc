@@ -16,12 +16,12 @@ public class Determinant {
         }
 
         for (int i = 0; i < a[0].length; i++) {
-            temp = new double[a.length][a[0].length];
+            temp = new double[a.length - 1][a[0].length - 1];
 
             for (int j = 1; j < a.length; j++) {
                 for (int k = 0; k < a[0].length; k++) {
                     if (k < i) {
-                        temp[j][k] = a[j][k];
+                        temp[j - 1][k] = a[j][k];
                     } else if (k > i) {
                         temp[j - 1][k - 1] = a[j][k];
                     }
