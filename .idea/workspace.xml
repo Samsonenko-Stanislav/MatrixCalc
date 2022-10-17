@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Fixed bug">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/ScalMult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MatrixCalc/ScalMultTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AdditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixCalc/AdditionTest.java" afterDir="false" />
+    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added test for scalar multiplication">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/ScalMult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/ScalMult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666037748331</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added test for scalar multiplication">
+      <created>1666038559300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666038559300</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +204,7 @@
     <MESSAGE value="Added test for addition" />
     <MESSAGE value="Added addition" />
     <MESSAGE value="Fixed bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug" />
+    <MESSAGE value="Added test for scalar multiplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for scalar multiplication" />
   </component>
 </project>
