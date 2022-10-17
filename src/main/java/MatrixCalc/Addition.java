@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Addition {
     static public double [][] add(double[][] a, double[][] b) {
-        double[][] c = new double[a[0].length][a.length];
+        double[][] c = new double[a.length][a[0].length];
         System.out.println(a[0].length + " " + a.length);
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
