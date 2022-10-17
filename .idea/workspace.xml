@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added test for transposition">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Inversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MatrixCalc/InversionTest.java" afterDir="false" />
+    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added test for inversion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Inversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Inversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/ScalMult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/ScalMult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Transposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Transposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MatrixCalc/ScalMultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixCalc/ScalMultTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <recent name="MatrixCalc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InversionTest.inverseTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MatrixCalc.Main" />
       <module name="MatrixCalc" />
@@ -118,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTest.multTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScalMultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MatrixCalc" />
       <extension name="coverage">
         <pattern>
@@ -127,9 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MatrixCalc" />
-      <option name="MAIN_CLASS_NAME" value="MatrixCalc.MultiplicationTest" />
-      <option name="METHOD_NAME" value="multTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="MatrixCalc.ScalMultTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InversionTest.inverseTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InversionTest.inverseTest" />
+        <item itemvalue="JUnit.ScalMultTest" />
         <item itemvalue="JUnit.TranspositionTest" />
         <item itemvalue="JUnit.DeterminantTest" />
-        <item itemvalue="JUnit.MultiplicationTest.multTest" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666044424604</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added transposition">
+      <created>1666046633104</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666046633104</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added test for inversion">
+      <created>1666046694355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666046694355</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +316,8 @@
     <MESSAGE value="Fixed bug" />
     <MESSAGE value="Added matrix input for determinant" />
     <MESSAGE value="Added test for transposition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test for transposition" />
+    <MESSAGE value="Added transposition" />
+    <MESSAGE value="Added test for inversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for inversion" />
   </component>
 </project>

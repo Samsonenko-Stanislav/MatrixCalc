@@ -12,6 +12,6 @@ class ScalMultTest {
     double [][] c = {{5,5,5,5},{5,5,5,5},{5,5,5,5},{5,5,5,5}};
     @Test
     void testmult() {
-        Arrays.equals(c,mult(a,b));
+        Arrays.equals(c,mult(b,a));
     }
 }

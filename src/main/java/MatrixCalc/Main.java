@@ -33,7 +33,8 @@ public class Main {
                     Transposition.transposition();
                     break;
                 case 6:
-
+                    Inversion.inversion();
+                    break;
 
             }
         }

@@ -3,7 +3,7 @@ package MatrixCalc;
 import java.util.Scanner;
 
 public class ScalMult {
-    public static double [][] mult(double[][] a, double b) {
+    public static double [][] mult(double b, double[][] a) {
         double[][] c = new double[a.length][a[0].length];
         System.out.println(a[0].length + " " + a.length);
         for (int i = 0; i < a.length; i++) {
@@ -27,7 +27,7 @@ public class ScalMult {
             for (int j = 0; j < m; j++) {
                 a[i][j] = in.nextInt();
             }
-        double[][] c = mult(a, b);
+        double[][] c = mult(b, a);
         print(c);
     }
     private static void print(double[][] c) {

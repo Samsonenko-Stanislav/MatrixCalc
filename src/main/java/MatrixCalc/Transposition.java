@@ -25,7 +25,7 @@ public class Transposition {
             }
         return T;
     }
-        private static void print(double[][] c) {
+        public static void print(double[][] c) {
             System.out.println("Транспонированная матрица равна:");
             for (double[] doubles : c) {
                 for (int j = 0; j < c[0].length; j++)
