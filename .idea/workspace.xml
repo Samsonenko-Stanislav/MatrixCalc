@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added scalar multiplication">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MatrixCalc/MultiplicationTest.java" afterDir="false" />
+    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added test for multiplication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Multiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <recent name="MatrixCalc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiplicationTest.multTest">
+  <component name="RunManager" selected="JUnit.ScalMultTest.testmult">
     <configuration name="AdditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MatrixCalc" />
       <option name="PACKAGE_NAME" value="MatrixCalc" />
@@ -136,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MultiplicationTest.multTest" />
         <item itemvalue="JUnit.ScalMultTest.testmult" />
+        <item itemvalue="JUnit.MultiplicationTest.multTest" />
         <item itemvalue="JUnit.AdditionTest.testadd" />
         <item itemvalue="JUnit.AdditionTest" />
         <item itemvalue="JUnit.AdditionTest.testAdd" />
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666039541253</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added test for multiplication">
+      <created>1666040628992</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666040628992</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +237,7 @@
     <MESSAGE value="Fixed bug" />
     <MESSAGE value="Added test for scalar multiplication" />
     <MESSAGE value="Added scalar multiplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scalar multiplication" />
+    <MESSAGE value="Added test for multiplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for multiplication" />
   </component>
 </project>
