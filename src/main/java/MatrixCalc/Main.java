@@ -1,3 +1,5 @@
+package MatrixCalc;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,6 +16,11 @@ public class Main {
             System.out.println("5 - транспорирование матрицы");
             System.out.println("6 - нахождение обратной матрицы");
             oper = in.nextInt();
+            switch (oper){
+                case 1:
+                    Addition.addition();
+                    break;
+            }
         }
 
     }
