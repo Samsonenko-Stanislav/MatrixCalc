@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added multiplication">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MatrixCalc/DeterminantTest.java" afterDir="false" />
+    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added tests for determinantion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Determinant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Determinant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666042050559</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added tests for determinantion">
+      <created>1666042833589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666042833589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +258,7 @@
     <MESSAGE value="Added scalar multiplication" />
     <MESSAGE value="Added test for multiplication" />
     <MESSAGE value="Added multiplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added multiplication" />
+    <MESSAGE value="Added tests for determinantion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests for determinantion" />
   </component>
 </project>
