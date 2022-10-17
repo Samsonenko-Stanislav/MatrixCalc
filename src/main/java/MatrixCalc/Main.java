@@ -11,8 +11,8 @@ public class Main {
             System.out.println("Выберите необходимую операцию:");
             System.out.println("1 - сложение матриц");
             System.out.println("2 - скалярное умножение");
-            System.out.println("3 - умножение матриц");
-            System.out.println("4 - вычисление определителя");
+            System.out.println("3 - вычисление определителя");
+            System.out.println("4 - умножение матриц");
             System.out.println("5 - транспорирование матрицы");
             System.out.println("6 - нахождение обратной матрицы");
             oper = in.nextInt();
@@ -22,6 +22,10 @@ public class Main {
                     break;
                 case 2:
                     ScalMult.scalMult();
+                    break;
+                case 3:
+                    Multiplication.multiplication();
+                    break;
             }
         }
 
