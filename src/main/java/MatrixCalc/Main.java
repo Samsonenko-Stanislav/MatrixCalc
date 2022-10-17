@@ -29,6 +29,12 @@ public class Main {
                 case 4:
                     Determinant.determinant();
                     break;
+                case 5:
+                    Transposition.transposition();
+                    break;
+                case 6:
+
+
             }
         }
 
