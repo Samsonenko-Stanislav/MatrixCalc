@@ -1,6 +1,22 @@
 package MatrixCalc;
 
+import java.util.Scanner;
+
 public class Determinant {
+    public static void determinant(){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите размерность матрицы:");
+        int n = in.nextInt();
+        int m = in.nextInt();
+        double[][] a = new double[n][m];
+        System.out.println("Введите матрицу:");
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++) {
+                a[i][j] = in.nextInt();
+            }
+        double det = det(a);
+        System.out.println("Определитель матрицы равен "+ det);
+    }
     public static double det(double[][] a) {
         double temp[][];
         double det = 0;

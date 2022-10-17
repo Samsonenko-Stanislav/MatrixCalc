@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added determinantion">
+    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Fixed bug">
       <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Determinant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Determinant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +70,16 @@
       <recent name="MatrixCalc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeterminantTest">
-    <configuration name="AdditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixCalc.Main" />
       <module name="MatrixCalc" />
-      <option name="PACKAGE_NAME" value="MatrixCalc" />
-      <option name="MAIN_CLASS_NAME" value="MatrixCalc.AdditionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MatrixCalc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DeterminantTest" />
         <item itemvalue="JUnit.MultiplicationTest.multTest" />
         <item itemvalue="JUnit.ScalMultTest.testmult" />
         <item itemvalue="JUnit.AdditionTest.testadd" />
-        <item itemvalue="JUnit.AdditionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666043246875</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed bug">
+      <created>1666043603660</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666043603660</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,13 +271,13 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added test for addition" />
     <MESSAGE value="Added addition" />
-    <MESSAGE value="Fixed bug" />
     <MESSAGE value="Added test for scalar multiplication" />
     <MESSAGE value="Added scalar multiplication" />
     <MESSAGE value="Added test for multiplication" />
     <MESSAGE value="Added multiplication" />
     <MESSAGE value="Added tests for determinantion" />
     <MESSAGE value="Added determinantion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added determinantion" />
+    <MESSAGE value="Fixed bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug" />
   </component>
 </project>
