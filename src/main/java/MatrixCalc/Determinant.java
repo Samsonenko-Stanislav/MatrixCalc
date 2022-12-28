@@ -8,6 +8,9 @@ public class Determinant {
         System.out.println("Введите размерность матрицы:");
         int n = in.nextInt();
         int m = in.nextInt();
+        if (n != m){
+            System.out.println("Невозможно найти определитель так как, так как матрица неквадратная");
+        }
         double[][] a = new double[n][m];
         System.out.println("Введите матрицу:");
         for (int i = 0; i < n; i++)

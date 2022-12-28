@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added test for inversion">
+    <list default="true" id="8c3dc5a7-fb16-459f-bea9-5be5e4cd528d" name="Changes" comment="Added inversion">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Determinant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Determinant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Inversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Inversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/ScalMult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/ScalMult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatrixCalc/Transposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrixCalc/Transposition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MatrixCalc/ScalMultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixCalc/ScalMultTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/MatrixCalc/Inversion.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MatrixCalc/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MatrixCalc/Multiplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MatrixCalc/Transposition.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/MatrixCalc/AdditionTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/MatrixCalc/DeterminantTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/MatrixCalc/InversionTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/MatrixCalc/MultiplicationTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/MatrixCalc/ScalMultTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/MatrixCalc/TranspositionTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2FxPslFz9uPbDVr1kneCS3Xcz0Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +64,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_directory_selection": "C:/Users/samso/MatrixCalc/src/test/java/MatrixCalc",
-    "last_opened_file_path": "C:/Users/samso/MatrixCalc/src/main",
+    "last_opened_file_path": "C:/Users/samso/MatrixCalc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,7 +72,10 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "2b8ef732ef1d0e5f5a533e82f4d8e372",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeterminantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MatrixCalc" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +118,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MatrixCalc" />
-      <option name="MAIN_CLASS_NAME" value="MatrixCalc.DeterminantTest" />
+      <option name="MAIN_CLASS_NAME" value="MatrixCalc.InversionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InversionTest" />
         <item itemvalue="JUnit.InversionTest.inverseTest" />
         <item itemvalue="JUnit.ScalMultTest" />
         <item itemvalue="JUnit.TranspositionTest" />
-        <item itemvalue="JUnit.DeterminantTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +189,12 @@
       <option name="presentableId" value="Default" />
       <updated>1665430973112</updated>
       <workItem from="1665430974533" duration="1416000" />
+      <workItem from="1666651423476" duration="298000" />
+      <workItem from="1666651746777" duration="91000" />
+      <workItem from="1666651865498" duration="1350000" />
+      <workItem from="1666653260254" duration="1233000" />
+      <workItem from="1669065111384" duration="18316000" />
+      <workItem from="1672065158284" duration="9395000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665431032470</created>
@@ -274,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666046694355</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added inversion">
+      <created>1666048191465</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666048191465</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +325,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -318,6 +352,7 @@
     <MESSAGE value="Added test for transposition" />
     <MESSAGE value="Added transposition" />
     <MESSAGE value="Added test for inversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test for inversion" />
+    <MESSAGE value="Added inversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inversion" />
   </component>
 </project>
